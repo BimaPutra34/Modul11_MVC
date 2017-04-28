@@ -131,7 +131,7 @@ public class login extends javax.swing.JFrame {
             ResultSet result =ps.executeQuery();
             if(result.next()){
                 new home().show();
-                user = txtnama.getText();//perlu deklarasi userdiclass utama.
+                String user = txtnama.getText();//perlu deklarasi userdiclass utama.
                 this.dispose();
             }
             else{

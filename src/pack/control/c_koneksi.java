@@ -42,7 +42,7 @@ public class c_koneksi {
         return status;
     }
     public static Connection setKoneksi(){
-        String konString = "jdbc:mysql://localhost:toko";
+        String konString = "jdbc:mysql://localhost:3306/toko";
         Connection koneksi = null;
         try{
             Class.forName("com.mysql.jdbc.Driver");
